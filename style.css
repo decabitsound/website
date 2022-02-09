@@ -1,0 +1,273 @@
+h1 {
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0px;
+    margin: 0px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(115, 115, 115));
+    color: rgb(201, 201, 201);
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.navitem {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navitem:hover {
+    background-color: #111;
+}
+
+.active {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: rgb(155, 155, 155);
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+#IMDb{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #333;
+}
+
+#staffmeup{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #333;
+}
+
+#vimeo{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #333;
+}
+
+.profile{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#profile_text {
+    font-size: large;
+    width: 45%;
+    margin: 5px;
+    float: left;
+    padding-left: 15px;
+}
+
+#profile_pic {
+    float: right;
+    width: 45%;
+    margin: 5px;
+    object-fit: contain;
+}
+
+#resume{
+    margin-left: 25%;
+}
+
+#resumehead{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#download{
+    clear: both;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.links{
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+}
+
+.project{
+    height: 100%;
+    width: 70%;
+    display: block;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project_pic {
+    float: right;
+    height: 400px;
+    margin: 5px;
+    object-fit: contain;
+}
+
+.projtitle{
+    margin-left: 15px;
+}
+
+.tophead{
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#service_pic{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:rgb(155, 155, 155);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.service_header{
+    float: left;
+    width: 20%;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.service_div{
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.service_text{
+    float: right;
+    width: 55%;
+}
+
+#philosophy_text{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#big_equip_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.equipment_div {
+    align-items: center;
+}
+
+#equip_pic{
+    height: 550px;
+    width: auto;
+    max-width: 30%;
+    display: block;
+    border-style: solid;
+    border-color:rgb(155, 155, 155);
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+#loandownload{
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#contactbox{
+    display: flex;
+    justify-content: flex-start;;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+#contact_pic{
+    height: 400px;
+    width: auto;
+    max-width: 30%;
+    display: block;
+    border-style: solid;
+    border-color:rgb(155, 155, 155);
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+#footer_text {
+    color: rgb(155, 155, 155);
+}
+
+.footer {
+    background-color: #333;
+    margin: 0px;
+    padding: 5px;
+    clear: both;
+    text-align: center;
+}
